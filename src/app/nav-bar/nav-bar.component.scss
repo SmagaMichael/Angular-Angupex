@@ -1,0 +1,94 @@
+.CacheBarNav{
+    height: 110px;
+}
+
+.AllBarNav{
+position: fixed;
+top: 0;
+z-index: 9999;
+width: 100%;
+}
+
+.topBarNav{
+    background-color: rgb(31, 28, 28);
+    height: 30px;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    background-color: black;
+
+}
+
+
+.logo{
+    height: 90%;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+
+    &:hover{
+        border: 1px solid white;
+        cursor: pointer;
+        
+    }
+}
+
+
+button{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    margin: 5px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+button:hover{
+    border: 1px solid white;
+
+}
+
+
+
+.NavButtonDL{
+    color: white;
+    background-color: crimson;
+    border: 1px solid crimson;
+}
+
+
+
+
+.navbar-collapse{
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+
+.navbar-toggler-icon{
+    color: rgb(243, 235, 235);
+    width: 100%;
+    padding: 5px;
+    
+}
+
+.navbar-toggler{
+    border: 1px solid rgb(248, 248, 248);
+    padding: 5px;
+    height: 50px;
+    width: 80px;
+}
+
+.dropdown-item {
+    width: 95% !important;
+}

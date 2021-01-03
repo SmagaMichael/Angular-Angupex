@@ -1,0 +1,82 @@
+<div class="AllBarNav">
+
+    <div class="topBarNav">
+        
+    </div>
+
+    <nav class="navbar navbar-expand-lg ">
+
+        <button (click)="toggleCollapseNavbar()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon">MENU</span>
+        </button>
+
+        <div class="collapse  navbar-collapse {{isCollapsed}}"  id="navbarSupportedContent">
+
+            <img class="logo" src="../../assets/img/logo.png" routerLink="/" alt=""> 
+
+            <div ngbDropdown><button class="col-5 col-lg-12" id="dropdownBasic1" ngbDropdownToggle>A propos</button>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <button ngbDropdownItem>A propos d'Apex Legends</button>
+                <button ngbDropdownItem routerLink="/Maps">Cartes</button>
+                <button ngbDropdownItem>FAQ</button>
+                <button ngbDropdownItem>Configuration PC requise</button>
+                <button ngbDropdownItem>Crédits</button>
+              </div>
+            </div>
+
+            <div><button class="col-5 col-lg-12" routerLink="/Legends">Légends</button></div>
+              
+            <div ngbDropdown ><button class="col-5 col-lg-12" id="dropdownBasic1" ngbDropdownToggle>Saisons</button>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <button ngbDropdownItem>Saison - 7</button>
+                <button ngbDropdownItem>Saison - 6</button>
+                <button ngbDropdownItem>Saison - 5</button>
+                <button ngbDropdownItem>Saison - 4</button>
+                <button ngbDropdownItem>Saison - 3</button>
+                <button ngbDropdownItem>Saison - 2</button>
+                <button ngbDropdownItem>Saison - 1</button>
+              </div>
+            </div>
+
+            <div><button class="col-5 col-lg-12">Passe de combat</button></div>
+            
+            <div ngbDropdown><button class="col-5 col-lg-12" id="dropdownBasic1" ngbDropdownToggle>Actus</button>
+              <div ngbDropdownMenu >
+                <button ngbDropdownItem>Dernières actus</button>
+                <button ngbDropdownItem>Mises à jour du jeu</button>
+                <button ngbDropdownItem>Médias récents</button>
+              </div>
+            </div>
+
+            <div><button class="col-5 col-lg-12" routerLink="/Weapons">Armes</button></div>
+
+            <div ngbDropdown><button class="col-5 col-lg-12" id="dropdownBasic1" ngbDropdownToggle>Jeu compétitif</button>
+              <div ngbDropdownMenu >
+                <button ngbDropdownItem>Jeu compétitif</button>
+                <button ngbDropdownItem>Directives pour compétions communautaires</button>
+              </div>
+            </div>
+          
+            <div ngbDropdown><button class="col-5 col-lg-12" id="dropdownBasic1" ngbDropdownToggle>Boutique</button>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <button ngbDropdownItem>Playapexshop.com</button>
+                <button ngbDropdownItem>Editions Légendes</button>
+              </div>
+            </div>
+
+            <div><a href="https://answers.ea.com/t5/Apex-Legends/ct-p/apex-legends-fr"><button class="col-5 col-lg-12">Forums</button></a></div>
+
+            <div ngbDropdown><button class="col-5 col-lg-12 NavButtonDL " id="dropdownBasic1" ngbDropdownToggle>Télécharger gratuitement</button>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <button ngbDropdownItem>Origin sur PC</button>
+                <button ngbDropdownItem>Steam sur PC </button>
+                <button ngbDropdownItem>Playstation</button>
+                <button ngbDropdownItem>Xbox</button>
+              </div>
+            </div>
+        
+        </div>
+    </nav>
+</div>
+
+<div class="CacheBarNav"></div>

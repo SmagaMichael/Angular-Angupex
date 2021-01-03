@@ -1,0 +1,58 @@
+
+// entre 0 et 1434px
+@media(max-width: 1434px){
+    .PageLegend{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        // background-image: url(../../assets/img/OneLegendImg/{{OneLegend.bg}}) ;
+        overflow: hidden;
+    
+        img{
+            width: 100%;
+            height: auto;
+        }
+       
+    }
+    
+    
+    .Description{
+        padding: 30px;
+        p{
+            text-align: justify;
+        }
+    }
+    
+}
+//de 1435px à plus 
+@media(min-width: 1435px){
+    .PageLegend{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        // background-image: url(../../assets/img/OneLegendImg/{{OneLegend.bg}}) ;
+        height: 930px;
+        overflow: hidden;
+    
+        img{
+            width: 100%;
+            height: auto;
+        }
+       
+    }
+    
+    
+    .Description{
+        position: absolute;
+        top:55px;
+    
+        p{
+            text-align: justify;
+        }
+    }
+    
+}

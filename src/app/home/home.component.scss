@@ -1,0 +1,276 @@
+
+.cover{
+    position: relative;
+    background-image: url(../../assets/img/Home/cover.png) ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 700px;
+    display: flex;
+    align-items: center;
+
+
+    .blockCover{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(59, 48, 48, 0.363);
+        width: 100%;
+        top: 47%;
+        
+    }
+    P{
+        color: white;
+        font-weight: 700;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .buttonPlay{
+        margin: 5px;
+        color: white;
+        background-color: crimson;
+        border: 1px solid crimson;
+    }
+}
+
+.LastActus{
+    background-image: url(../../assets/img/Home/bg-actus.png);
+    // background-repeat: no-repeat;
+    background-size: 100% ;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+    .card{
+        margin: 10px;
+        height: 500px;
+    }
+
+    h2{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .card-body {
+        background-color: black;
+        color: blanchedalmond;
+        border-bottom: 7px solid rgb(196, 41, 41);
+    }
+}
+
+.coverHorizon{
+    position: relative;
+    background-image: url(../../assets/img/Home/horizon.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 690px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+
+
+    .blockCoverhorizon{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #28364ea6;
+        width: 100%;
+        bottom:0px;
+        margin-bottom: 10px;
+        padding: 15px;
+    }
+    h2{
+        color: white;
+        width: 100%;
+    }
+    P{
+        color: white;
+        font-weight: 700;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    button{
+        color: white;
+        border: 1px solid white;
+      
+    }
+}
+
+.Evolution{
+    position: relative;
+    background-image: url(../../assets/img/Home/olympus.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+
+    h2{
+        width: 100%;
+        color: white;
+        margin-top: 30px;
+    }
+    p{
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .card{
+        background-color: transparent;
+        color: white;
+        border: none !important ;
+    }
+}
+
+.DivLegend{
+    position: relative;
+    background-image: url(../../assets/img/Home/bg-squad.png) ;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-end;
+    padding-bottom: 30px;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .blockDivLegend{
+        width: 100%;
+        height: auto;
+    }
+    P{
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        font-size: 18px;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    button{
+        color: white;
+        background-color: crimson;
+        border: 1px solid crimson;
+    }
+}
+
+
+.Lancement{
+    background-image: url(../../assets/img/Home/lancement.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
+    .blockLancement{
+        width: 100%;
+    }
+    P{
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    button{
+        color: white;
+        background-color: crimson;
+        border: 1px solid crimson;
+    }
+}
+
+.newsLetter{
+    padding: 30px;
+    background-color: #e5e1d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:flex-end;
+
+
+    .blocknewsLetter{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .title{
+        width: 100%;
+    }
+
+
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    input{
+        width: 55%;
+        margin: 15px;
+        
+    }
+
+    P{
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        font-size: 18px;
+    }
+   
+    button{
+        color: white;
+        background-color: crimson;
+        border: 1px solid crimson;
+    }
+
+  
+
+}
+
+
+
+.playFree{
+    background-image: url(../../assets/img/Home/A.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+
+
+    .blockplayFree{
+        width: 100%;
+    }
+    P{
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    button{
+        color: white;
+        background-color: crimson;
+        border: 1px solid crimson;
+    }
+}

@@ -1,0 +1,11 @@
+<p>map works!</p>
+
+<div>
+    <div *ngFor="let Map of AllMaps">
+        <div class="BlockMap">
+            <h2 > {{Map.name}}  </h2>
+            <img type="button" src="../../assets/img/Maps/{{Map.bg}}"  routerLink="/Maps/{{Map.name}}">
+            
+        </div>
+    </div>
+</div>

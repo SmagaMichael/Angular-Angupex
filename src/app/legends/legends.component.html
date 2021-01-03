@@ -1,0 +1,20 @@
+<div class="MeetLegend">
+    <img src="../../assets/img/legend/logo.svg" class="mb-4">
+    <h2 class="mb-4">RENCONTREZ LES LÉGENDES</h2>
+    <p class="mb-4">Pour devenir une Légende, il vous faudra du cran, du talent... et un peu de chance ! </p>
+    <p>Choisissez votre personnage favori et découvrez ce que ses talents uniques peuvent apporter à votre escouade.</p>
+</div>
+
+
+<div class="BlockLegend">
+    <div *ngFor="let Legend of AllLegends" class="card col-6 col-md-6 col-lg-3">
+            <img src="../../assets/img/legend/{{Legend.image}} " class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> {{Legend.name}} </h5>
+              <p class="card-text"> {{Legend.type}}   </p>
+              <a class="btn " routerLink="/Legends/{{Legend.name}}">
+                  <img class="Arrow" src="../../assets/img/Icon/Arrow.png" alt="">
+              </a>
+            </div>
+    </div>
+</div>

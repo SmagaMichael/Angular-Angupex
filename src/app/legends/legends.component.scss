@@ -1,0 +1,27 @@
+.MeetLegend{
+    height: 400px;
+    background-image: url(../../assets/img/legend/cover.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BlockLegend{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../../assets/img/legend/bg-squad.png);
+    width: 100%;
+
+    .Arrow{
+        width: 35px;
+    }
+}
+
+.card{
+    padding: 25px;
+    background-color: transparent;
+    border: none;
+}
