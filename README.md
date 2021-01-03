@@ -1,27 +1,47 @@
 # Angupex
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+Petit projet pour découvrir Angular...
 
-## Development server
+## Récupèration du projet
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Pour récupèrer, on utilise Git. On s'assure d'être dans le bon dossier avant :
 
-## Code scaffolding
+```
+cd C:\Users\Administrateur\Code
+git clone https://github.com/SmagaMichael/Angupex.git
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+On n'oublie pas d'installer les dépendances du projet :
 
-## Build
+```
+cd Angupex
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Et voilà, on peut lancer le serveur (`http://localhost:4200/`) :
 
-## Running unit tests
+```
+ng serve
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+N'oublions pas de lancer l'API :
 
-## Running end-to-end tests
+```
+npm install -g json-server
+json-server --watch db.json
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Par la suite, s'il y a des modifications, on peut simplement faire :
 
-## Further help
+```
+cd Angupex
+git pull
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Commandes utiles
+
+Pour générer un composant :
+
+```
+ng generate component angupex-list
+```
